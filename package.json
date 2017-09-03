@@ -1,0 +1,29 @@
+{
+  "name": "tetrisjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "watch": "node src/compile.js watch",
+    "dist": "node src/compile.js dist",
+    "dev": "node src/compile.js dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icavalheiro/tetrisjs.git"
+  },
+  "author": "Ivan Schuaste Cavalheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icavalheiro/tetrisjs/issues"
+  },
+  "homepage": "https://github.com/icavalheiro/tetrisjs#readme",
+  "devDependencies": {
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
